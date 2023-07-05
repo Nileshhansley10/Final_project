@@ -1,0 +1,18 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "render",
+    "build": "cd backend && npm install && cd Crowny-Hotel-main && npm install",
+    "dev": "concurrently \"cd backend && nodemon index.js\" \"cd Crowny-Hotel-main && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
+
