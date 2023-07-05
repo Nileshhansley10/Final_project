@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "render",
     "build": "cd backend && npm install && cd ../Crowny-Hotel-main && npm install && cd ..",
-    "dev": "concurrently \"cd backend && nodemon index.js\" \"cd Crowny-Hotel-main && npm start\""
+    "dev": "cd backend && nodemon index.js & cd ../Crowny-Hotel-main && npm start"
+
   },
   "author": "",
   "license": "ISC",
