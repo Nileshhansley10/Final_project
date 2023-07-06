@@ -104,7 +104,7 @@ const Navbar = () => {
               </div>
               <div className='text'>
                 <h4>Mail Us</h4>
-                <Link to='/contact'>info@exampal.com</Link>
+                <Link to='/contact'>info@example.com</Link>
               </div>
             </div>
           </div>

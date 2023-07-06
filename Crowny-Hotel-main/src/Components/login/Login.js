@@ -48,7 +48,7 @@ const Login = () => {
                   <label>Remember Me</label>
                 </div>
                 <div className='flex'>
-                  <span>I forgot my password</span>
+                  <span>Forgot Password</span>
                 </div>
               </div>
 
