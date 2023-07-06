@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "npm-run-all": "^4.1.5"
+  },
+  "name": "final_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install && cd backend && npm install && cd ../Crowny-Hotel-main ",
+    "start": "npm-run-all --parallel dev:*",
+    "dev:backend":"cd backend && npm start",
+    "dev:Crowny-Hotel-main":"cd Crowny-Hotel-main && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
