@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install && cd backend && npm install && cd Crowny-Hotel-main && npm install",
+    "build": "npm install && cd backend && npm install && cd ../Crowny-Hotel-main && npm install && cd ..",
     "start": "npm-run-all --parallel dev:*",
     "dev:backend":"cd backend && npm start",
     "dev:Crowny-Hotel-main":"cd Crowny-Hotel-main && npm start"
